@@ -4,7 +4,3 @@ def uppercase(str):
         ''.join(chr(ord(i)-(ord('a')-ord('A')))
         if ord(i) - ord('a') >= 0 else i for i in str)
             }""")
-
-
-uppercase("best")
-uppercase("Best School 98 Battery street")
