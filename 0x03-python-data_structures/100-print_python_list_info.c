@@ -5,7 +5,6 @@
 /**
  * print_python_list_info - frees a listint_t list
  * @p: pointer to list to be freed
- * Return: void
  */
 void print_python_list_info(PyObject *p)
 {
