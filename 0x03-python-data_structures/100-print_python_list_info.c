@@ -1,15 +1,10 @@
-#include "listobject.h"
-#include "object.h"
-#include <stdio.h>
-#include <stdlib.h>
 #include <Python.h>
 
-	/**
-	 * print_python_list_info - frees a listint_t list
-	 * @p: pointer to list to be freed
-	 */
-	void
-	print_python_list_info(PyObject *p)
+/**
+ * print_python_list_info - frees a listint_t list
+ * @p: pointer to list to be freed
+ */
+void print_python_list_info(PyObject *p)
 {
 	Py_ssize_t size_p, allocated, idx = 0;
 	PyObject *element;
