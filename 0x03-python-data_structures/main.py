@@ -1,11 +1,6 @@
 #!/usr/bin/python3
-add_tuple = __import__('7-add_tuple').add_tuple
+print_reversed_list_integer = __import__('3-print_reversed_list_integer').print_reversed_list_integer
 
-tuple_a = (1, 89)
-tuple_b = (88, 11)
-new_tuple = add_tuple(tuple_a, tuple_b)
-print(new_tuple)
-
-print(add_tuple(tuple_a, (1, )))
-print(add_tuple(tuple_a, ()))
-print(add_tuple((1,2,3), (1,2,3)))
+my_list = [1, 2, 3, 4, 5]
+my_list = []
+print_reversed_list_integer(my_list)
