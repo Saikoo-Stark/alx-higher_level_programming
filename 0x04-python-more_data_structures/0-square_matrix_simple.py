@@ -4,3 +4,4 @@ def square_matrix_simple(mat=[]):
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
             matrix[i][j] = matrix[i][j]**2
+    return matrix
