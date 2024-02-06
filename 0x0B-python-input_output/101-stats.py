@@ -14,7 +14,7 @@ total_size = 0
 r = 0
 for line in sys.stdin:
     status, size = line.split()[7], line.split()[8]
-    r +=1
+    r += 1
     if status not in status_op:
         continue
     total_size += int(size)
