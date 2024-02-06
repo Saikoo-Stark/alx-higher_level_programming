@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""Defines a module"""
+"""
+Definition of module
+"""
 
 
 def lookup(obj):
-    """ function"""
+    """returns a list of available objects"""
     return dir(obj)
