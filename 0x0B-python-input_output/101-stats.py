@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 import sys
+"""
+define append module
+"""
 
 
 def print_status():
