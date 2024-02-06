@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Defining class Mylist
+reading and writing
 """
 
 
 def read_file(filename=""):
     """
-    just a function
+    reading operation
     """
-    with open(file=filename, mode="r", encoding="utf-8") as f:
-        print(f.read())
+    with open(filename, "r", encoding="utf-8") as f:
+        print(f.read(), end="")
