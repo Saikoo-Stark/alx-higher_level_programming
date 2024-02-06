@@ -2,7 +2,7 @@
 """Defines a module 101-add_attribute"""
 
 
-def add_attribute(obj: object, attr_name: str , attr_value: object):
+def add_attribute(obj: object, attr_name: str, attr_value: object):
     """
     add_attribute function
     """
