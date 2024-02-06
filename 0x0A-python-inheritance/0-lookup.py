@@ -2,5 +2,5 @@
 """Defines a module"""
 
 
-def lookup(obj: any) -> list:
+def lookup(obj):
     return dir(obj)
