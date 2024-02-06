@@ -1,16 +1,14 @@
 #!/usr/bin/python3
-add_attribute = __import__('101-add_attribute').add_attribute
+lookup = __import__('0-lookup').lookup
 
-class MyClass():
+class MyClass1(object):
     pass
 
-mc = MyClass()
-add_attribute(mc, "name", "John")
-print(mc.name)
+class MyClass2(object):
+    my_attr1 = 3
+    def my_meth(self):
+        pass
 
-try:
-    a = "My String"
-    add_attribute(a, "name", "Bob")
-    print(a.name)
-except Exception as e:
-    print("[{}] {}".format(e.__class__.__name__, e))
+print(lookup(MyClass1))
+print(lookup(MyClass2))
+print(lookup(int))
