@@ -9,3 +9,4 @@ class MyInt(int):
 
     def __ne__(self, __value: object) -> bool:
         return not super().__ne__(__value)
+m
